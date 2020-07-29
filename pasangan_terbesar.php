@@ -1,6 +1,8 @@
 <?php
 function pasangan_terbesar($angka){
 // kode di sini
+$arr2 = arry_map("intval", str_split($angka));
+
 }
 
 // TEST CASES
