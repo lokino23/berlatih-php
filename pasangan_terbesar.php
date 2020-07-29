@@ -1,7 +1,11 @@
 <?php
 function pasangan_terbesar($angka){
 // kode di sini
-$arr2 = arry_map("intval", str_split($angka));
+$arr2 = array_map("intval", str_split($angka));
+$val= max($arr2);
+$search = (array_search($val,$arr2)+1);
+$next = $arr2[$search];
+
 
 }
 
