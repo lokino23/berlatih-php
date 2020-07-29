@@ -3,24 +3,24 @@
 function papan_catur($angka) {
 // tulis kode di sini
 for($i = 0; $i < $angka; $i++) {
-    for($j = 0; $j <($angka *2  ) - 1 ; $j++){
+    for($j = 0; $j < ($angka * 2) - 1; $j++) {
         if($i % 2 == 1) {
-            echo "nbsp";}
-            else {
-                echo "nbsp" ;
-            }
-if($i %2 == 0){
-            if ($j % 2 ==1) {
-                echo "nbsp" ;
+            if($j % 2 == 1) {
+                echo "#&nbsp";
             } else {
-                echo "nbsp" ;
+                echo "&nbsp";
+            }
+        } else if($i % 2 == 0) {
+            if($j % 2 == 1) {
+                echo  "&nbsp";
+            } else {
+                echo "#&nbsp";
             }
         }
     }
     echo "<br>";
 }
-    echo"<br>";
-
+echo "<br>";
 }
 
 
