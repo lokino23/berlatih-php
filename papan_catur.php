@@ -10,7 +10,7 @@ for($i = 0; $i < $angka; $i++) {
             else {
                 echo "nbsp" ;
             }
-        }else if ($i %2 == 0){
+        } else if ($i %2 == 0){
             if ($j % 2 ==1) {
                 echo "nbsp" ;
             } else {
