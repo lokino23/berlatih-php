@@ -2,6 +2,11 @@
 
 function palindrome_angka($angka) {
   // tulis kode di sini
+  while (true){
+    $nilai =strval($angka+1);
+    $nilaibaru = "" ;
+    ===
+  }
 }
 
 // TEST CASES
