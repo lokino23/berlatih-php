@@ -1,5 +1,12 @@
 function ubah_huruf($string){
+    $arr = str_split($string);
 
+for($i = 0; $i < count($arr); $i++) {
+    $ascii[] = ord($arr[$i]);
+    $shifted[] = chr($ascii[$i]+1);
+    echo $shifted[$i];
+}
+return "<br>";
 }
 
 // TEST CASES
